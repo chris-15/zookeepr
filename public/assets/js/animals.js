@@ -1,6 +1,8 @@
 const $animalForm = document.querySelector('#animals-form');
 const $displayArea = document.querySelector('#display-area');
 
+
+
 const printResults = resultArr => {
   console.log(resultArr);
 
@@ -74,6 +76,9 @@ const handleGetAnimalsSubmit = event => {
   getAnimals(animalObject);
 };
 
+
 $animalForm.addEventListener('submit', handleGetAnimalsSubmit);
 
 getAnimals();
+
+
